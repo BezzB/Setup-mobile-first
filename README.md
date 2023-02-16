@@ -34,7 +34,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 
-  <h3><b>Microverse First Project</b></h3>
+  <h3><b>setting up the mobile first project</b></h3>
 
 </div>
 
@@ -64,11 +64,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Microverse First Project] <a name="about-project"></a>
+# 📖 [setting up the mobile first project ] <a name="about-project"></a>
 
-> Hello , This is a simple project demonstrating how to use linters and push.
+> Hello , This is a simple project shows how to create a portofolio.
 
-**[Microverse First Project]** is a simple buil up demo project.
+**[setting up the mobile first project ]** is a simple buil up demo project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
