@@ -1,0 +1,20 @@
+{
+  "name": "setup-mobile-first",
+  "version": "1.0.0",
+  "description": "setting up the mobile first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BezzB/Setup-mobile-first.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BezzB/Setup-mobile-first/issues"
+  },
+  "homepage": "https://github.com/BezzB/Setup-mobile-first#readme"
+}
