@@ -6,8 +6,6 @@
   -moz-box-sizing: border-box;
 }
 
-
-
 nav {
   background-color: #5f4d80;
   height: 92px;
@@ -33,7 +31,7 @@ nav .bar1,
 }
 
 .name-container h2 {
-  color: #ffffff;
+  color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -96,5 +94,5 @@ nav .bar1,
   max-width: 50%;
   margin-left: 10px;
   flex-direction: row;
-  list-style-type: none;  
+  list-style-type: none;
 }
