@@ -54,7 +54,7 @@ nav .bar1,
   flex-direction: column;
   justify-content: space-around;
   min-height: 100vh;
-  background-image: url(assets/Illustration-header.png);
+  background-image: url(images/Illustration-header.png);
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -216,7 +216,7 @@ hr {
   display: flex;
   flex-direction: column;
   max-height: 80vh;
-  background-image: url(assets/Img\ Placeholder1.png);
+  background-image: url(images/Img\ Placeholder1.png);
   background-repeat: no-repeat;
   background-size: 90%;
   padding-left: 16px;
@@ -277,7 +277,7 @@ hr {
 }
 
 .about .about-me {
-  background-image: url(assets/Frame.png);
+  background-image: url(images/Frame.png);
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: bottom right;
