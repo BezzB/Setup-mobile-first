@@ -4,24 +4,23 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-
 }
 
 body {
-background-color: #8993a4;
+  background-color: #8993a4;
 }
+
 .container {
   width: 400px;
   display: grid;
   margin: 0;
-
 }
 
 .box1 {
   background-color: #3e3c3c;
   height: 48px;
   position: absolute;
-  width:400px;
+  width: 400px;
   display: flex;
   align-items: center;
   padding: 0 24px;
@@ -37,24 +36,24 @@ background-color: #8993a4;
   align-items: flex-start;
   padding: 120px 24px;
   gap: 12px;
-  
   position: absolute;
   width: 400px;
   height: 590px;
-  left: 0px;
-  top:48px;
-  
+  left: 0;
+  top: 48px;
+
   /* Theme 3 / Neutral 1 */
-  
-  background: #1C1A19;
+
+  background: #1c1a19;
 }
 
 .ground {
-margin-top: -170px;
-margin-left: 244px;
+  margin-top: -170px;
+  margin-left: 244px;
 }
+
 .name-container {
-color: #fff;
+  color: #fff;
 }
 
 .name-container h2 {
@@ -75,22 +74,19 @@ color: #fff;
   background-color: #3e3c3c;
 }
 
-
 .welcome {
-  
-width: 327px;
-height: 124px;
-font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 64px;
-top: 100px;
-letter-spacing: 0.37px;
-
-
-color: #FF6B00
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 64px;
+  top: 100px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
 }
+
 .job-desc {
   font-family: "Roboto", sans-serif;
   color: #fff5e1;
@@ -98,25 +94,17 @@ color: #FF6B00
   font-size: 18px;
   line-height: 32px;
   margin-top: 30px;
-
 }
 
 .intro {
- 
   width: 327px;
   height: 123px;
-
-  
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
- 
-  
-
-  color: #FFFFFF;
- 
+  color: #fff;
 }
 
 .icons-container {
@@ -128,41 +116,41 @@ color: #FF6B00
   list-style-type: none;
   column-gap: 20px;
 }
-.box3 {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 120px 0px;
-gap: 80px;
 
-position: absolute;
-width: 400px;
-height: 3855px;
-background: #fff;
-left: 0px;
-top: 682px;
+.box3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0;
+  gap: 80px;
+  position: absolute;
+  width: 400px;
+  height: 3855px;
+  background: #fff;
+  left: 0;
+  top: 682px;
 }
 
 .recent {
   margin-left: 40px;
   width: 330px;
-height: 83px;
+  height: 83px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 52px;
 
-font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 35px;
-line-height: 52px;
-/* or 130% */
+  /* or 130% */
 
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 
-/* Theme 3 / Neutral 1 */
+  /* Theme 3 / Neutral 1 */
 
-color: #1C1A19;
-
+  color: #1c1a19;
 }
+
 .story {
   margin-top: 30px;
   font-family: "Crete Round", sans-serif;
@@ -183,12 +171,12 @@ color: #1C1A19;
   align-items: center;
 }
 
-
 hr {
   width: 75%;
   margin-top: 30px;
   margin-left: 35px;
 }
+
 .dailypost {
   text-align: left;
   margin-left: 36px;
@@ -200,7 +188,6 @@ hr {
   font-size: 14px;
   line-height: 24px;
 }
-
 
 .head-work img {
   width: 80%;
@@ -266,22 +253,22 @@ hr {
 
 .c {
   display: flex;
-flex-direction: row;
-align-items: center;
-padding: 12px;
-gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  margin-top: 20px;
+  margin-left: 30px;
 
-width: 124px;
-height: 48px;
-margin-top: 20px;
-margin-left: 30px;
+  /* Theme 3 / Primary 1 */
 
-/* Theme 3 / Primary 1 */
+  background: #ff6b00;
 
-background: #FF6B00;
-
-/* Inside auto layout */
+  /* Inside auto layout */
 }
+
 .work .project-button {
   background-color: #ff6b00;
   height: 48px;
@@ -368,13 +355,14 @@ background: #FF6B00;
   border: 1px solid #f55800;
   color: #f55800;
 }
+
 .box4 {
   position: absolute;
   width: 400px;
   height: 1901px;
-  left: 0px;
+  left: 0;
   top: 4537px;
-  background: #1C1A19;
+  background: #1c1a19;
 }
 
 .about {
