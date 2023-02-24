@@ -1,0 +1,27 @@
+{
+  "name": "setup-mobile-first",
+  "version": "1.0.0",
+  "description": "setting up the mobile first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BezzB/Setup-mobile-first.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BezzB/Setup-mobile-first/issues"
+  },
+  "homepage": "https://github.com/BezzB/Setup-mobile-first#readme",
+  "devDependencies": {
+    "hint": "^2.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
