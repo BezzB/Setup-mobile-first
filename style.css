@@ -41,9 +41,6 @@ body {
   height: 800px;
   left: 0;
   top: 48px;
-
-  /* Theme 3 / Neutral 1 */
-
   background: #1c1a19;
 }
 
@@ -121,6 +118,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 24px;
+  margin-right: 24px;
   padding: 120px 0;
   gap: 80px;
   position: absolute;
@@ -140,26 +139,23 @@ body {
   font-weight: 400;
   font-size: 35px;
   line-height: 52px;
-
-  /* or 130% */
-
   display: flex;
   align-items: center;
-
-  /* Theme 3 / Neutral 1 */
-
   color: #1c1a19;
 }
 
 .story {
-  margin-top: 30px;
-  font-family: "Crete Round", sans-serif;
+  width: 330px;
+  height: 36px;
+  margin-left: 24;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 52px;
-  color: #1c1a19;
+  font-size: 32px;
+  line-height: 44px;
   display: flex;
   align-items: center;
+  color: #091e42;
 }
 
 .recent-works {
@@ -179,7 +175,8 @@ hr {
 
 .dailypost {
   text-align: left;
-  margin-left: 36px;
+  margin-left: 24px;
+  margin-right: 24px;
   margin-top: 24px;
   max-width: 80%;
   font-family: 'Inter', sans-serif;
@@ -190,15 +187,19 @@ hr {
 }
 
 .head-work img {
-  width: 80%;
-  align-self: center;
   margin-top: 100px;
-  margin-left: 30px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.placeholder {
+  width: 327px;
+  height: 237px;
 }
 
 .head-work h2 {
   text-align: left;
-  margin-left: 36px;
+  margin-left: 24px;
   margin-top: 24px;
   font-weight: 400;
   font-size: 32px;
@@ -221,11 +222,13 @@ hr {
 .techstack-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  margin-left: 36px;
-  margin-top: 24px;
-  max-width: 80%;
+  padding: 0;
+  gap: 12px;
+  width: 297px;
+  height: 40px;
+  margin-left: 24px;
+  margin-top: 10px;
 }
 
 .techstack-container li {
@@ -240,6 +243,7 @@ hr {
 }
 
 .project-button {
+  display: flex;
   color: #fff;
   align-self: flex-start;
   padding: 12px;
@@ -259,14 +263,9 @@ hr {
   gap: 10px;
   width: 124px;
   height: 48px;
-  margin-top: 20px;
-  margin-left: 30px;
-
-  /* Theme 3 / Primary 1 */
-
   background: #ff6b00;
-
-  /* Inside auto layout */
+  margin-left: 24px;
+  margin-top: 10px;
 }
 
 .work .project-button {
@@ -275,13 +274,13 @@ hr {
   color: #fff;
   align-self: left;
   margin-top: 30px;
-  margin-left: 1.5px;
+  margin-left: 4px;
   padding: 12px;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   font-family: 'Inter', sans-serif;
-  width: 99%;
+  width: 97.7%;
   border: none;
 }
 
