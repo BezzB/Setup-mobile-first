@@ -485,37 +485,36 @@ hr {
   list-style: none;
 }
 
-.box5{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 120px 24px;
-gap: 58px;
-background-color: #fff;
-position: absolute;
-width: 400px;
-height: 944px;
-left: 24px;
-top: 6438px
+.box5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 58px;
+  background-color: #fff;
+  position: absolute;
+  width: 400px;
+  height: 944px;
+  left: 24px;
+  top: 6438px;
 }
 
-.personalmessage{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 58px;
-width: 327px;
-height: 246px;
-text-align: center;
-color: #172B4D;
-font-size: 32px;
-
+.personalmessage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 58px;
+  width: 327px;
+  height: 246px;
+  text-align: center;
+  color: #172b4d;
+  font-size: 32px;
 }
 
 .name {
-width: 327px;
-height: 48px;
+  width: 327px;
+  height: 48px;
 }
 
 .form-input {
@@ -531,25 +530,21 @@ height: 48px;
   border: none;
   padding: 12px;
   width: 327px;
-  height: 48px;
   margin-top: 70;
-
-    
 }
 
-.mail-message{
-width: 327px;
-height: 114px;
-left: 12px;
-right: 12px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
+.mail-message {
+  width: 327px;
+  height: 114px;
+  left: 12px;
+  right: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
 }
 
-.send{
+.send {
   /* display: flex; */
   flex-direction: row;
   padding: 12px;
@@ -558,23 +553,21 @@ line-height: 24px;
   margin-top: 50px;
   width: 131px;
   height: 48px;
-  background: #FF6B00;
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 17px;
-line-height: 24px;
-color: #FFFFFF;
-  
-
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
 }
 
-.box6{
-position: absolute;
-width: 375px;
-height: 72px;
-left: 0px;
-top: 7286px;
+.box6 {
+  position: absolute;
+  width: 375px;
+  height: 72px;
+  left: 0;
+  top: 7286px;
 }
 
 .footer-container {
@@ -584,20 +577,16 @@ top: 7286px;
   justify-content: space-around;
   margin: 30px auto;
   width: 200px;
-height: 40px;
-
-  
+  height: 40px;
 }
+
 .image1 {
   color: #505f79;
 }
 
-
-.box6 hr{
+.box6 hr {
   width: 100%;
   margin-top: 30px;
   margin-left: 35px;
-
-
-background: #DFE1E6;
+  background: #dfe1e6;
 }
