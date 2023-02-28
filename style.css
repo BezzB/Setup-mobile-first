@@ -482,3 +482,13 @@ hr {
   line-height: 43px;
   color: #fff;
 }
+
+.footer-msg {
+  border: 1px solid black;
+  background: white;
+}
+
+.footer-text {
+  text-align: center;
+  width: 90%;
+}
