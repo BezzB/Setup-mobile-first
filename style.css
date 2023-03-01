@@ -370,8 +370,8 @@ hr {
 }
 
 .about {
-  background-color: #1c1a19;
-  min-height: 100vh;
+  background-color:#f4f5f7;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
 }
