@@ -502,7 +502,6 @@
   color: #3c3a39;
   padding: 12px;
   width: 100%;
-  
 }
 
 .contact-section .form .send {
@@ -536,11 +535,11 @@
   justify-content: space-around;
   margin: 30px auto;
   width: 170px;
-  color:#0d151e;
+  color: #0d151e;
 }
 
 .footer {
-  color:#0d151e;
+  color: #0d151e;
 }
 
 footer .ending-line {
@@ -550,5 +549,7 @@ footer .ending-line {
   border-radius: 14px;
   margin: 0 auto 10px auto;
 }
+
 footer .footer-container li a {
-  color:#0d151e;
+  color: #0d151e;
+}
