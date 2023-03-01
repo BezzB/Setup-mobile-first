@@ -258,10 +258,11 @@ font-weight: 700;
 
   }
   .work .project-button {
+    position: relative;
     background-color: #ff6b00;
     height: 48px;
     color: #fff;
-    margin-top: 22px;
+    margin-top: 10%;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
