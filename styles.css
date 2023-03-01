@@ -471,10 +471,9 @@
 }
 
 .contact-section .form {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto;
-  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   margin-top: 40px;
   align-items: center;
 }
@@ -502,6 +501,8 @@
   line-height: 24px;
   color: #3c3a39;
   padding: 12px;
+  width: 100%;
+  
 }
 
 .contact-section .form .send {
@@ -528,17 +529,18 @@
   transform: scale(1.2);
 }
 
-footer .footer-container {
+.footer-container {
   display: flex;
   flex-direction: row;
   list-style-type: none;
   justify-content: space-around;
   margin: 30px auto;
   width: 170px;
+  color:#0d151e;
 }
 
-footer .footer-container li a {
-  color: #505f79;
+.footer {
+  color:#0d151e;
 }
 
 footer .ending-line {
@@ -548,3 +550,5 @@ footer .ending-line {
   border-radius: 14px;
   margin: 0 auto 10px auto;
 }
+footer .footer-container li a {
+  color:#0d151e;
