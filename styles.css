@@ -99,7 +99,6 @@
   display: flex;
   justify-content: space-between;
   max-width: 50%;
-  margin-left: 10px;
   flex-direction: row;
   list-style-type: none;
   column-gap: 20px;
@@ -138,7 +137,6 @@
   color: #091e42;
 }
 
-
 .hr {
   width: 80%;
   margin-top: 30px;
@@ -155,13 +153,11 @@
   margin-top: 100px;
 }
 
-
 .image-container {
   width: 85%;
   margin-left: 24px;
   margin-right: 24;
 }
-
 
 .story {
   width: 100%;
@@ -191,8 +187,6 @@
   font-size: 16px;
   line-height: 24px;
 }
-
-
 
 .techstack-container {
   display: flex;
@@ -280,7 +274,15 @@
   font-family: 'Inter', sans-serif;
 }
 
-
+.skills-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
+  margin-top: 20px;
+  list-style: none;
+}
 
 .works {
   display: grid;
@@ -327,6 +329,16 @@
   color: #fff;
 }
 
+.skills-container ul li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+  list-style: none;
+}
+
 .work .techstack-container li {
   color: #fff;
 }
@@ -337,7 +349,6 @@
   border: solid #f55800;
   color: #f55800;
 }
-
 
 .about {
   background-color: #1c1a19;
@@ -414,17 +425,6 @@
   color: #fff;
 }
 
-
-.skills-container {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  min-height: 100vh;
-  margin-top: 20px;
-  list-style: none;
-}
-
 .skills-container .skills-title {
   margin-top: 30px;
   display: flex;
@@ -449,16 +449,6 @@
 .skills-container ul {
   justify-content: space-between;
   margin-top: 20px;
-}
-
-.skills-container ul li {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  color: #fff;
-  list-style: none;
 }
 
 .contact-section {
