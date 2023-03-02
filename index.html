@@ -24,8 +24,7 @@
     <header>
         <nav class="navbar">
             <a class="name-container" href="logo">Bezalell</a>
-            <img class="union" src="images/Union.png" alt="">
-            <div class="link-container">
+            <div class="links-container">
               <ul>
                 <li>
                   <a>Portfolio</a>
@@ -40,9 +39,12 @@
               <div class="message-container">
                 <a
                 ><img
-                src="assets/Normal Button/Tertiary/Disabled.png"
+                src="images/Icon - Mail.png"
                 alt="Message"
                 /></a>
+              </div>
+              <div class="bars">
+            <img class="union" src="images/Union.png" alt="">            
               </div> 
 
             </div>
@@ -50,7 +52,7 @@
     </header>
     <!-- Homepage Of Portfolio -->
     <section class="header">
-        <div>          
+        <div class=" headline">          
             <h1 class="welcome">
               Hey There.<br>I' am Bezalell
             </h1>
@@ -58,28 +60,32 @@
     
             <p class="intro">I can help you build a product , feature or<br> website Look through some of my work <br> and experience! If you like what you see<br> and have a project you need coded,<br> 
               don't hestiate to contact me.</p>
-          </div>
+        </div>
           
-           <div>
-            <ul class="icons-container">
+           <div class="icons-container">
+            <ul>
               <li><a><img src="images/github.png" alt="github"/></a></li>
               <li><a><img src="images/linkedin.png" alt="linkedin"/></a></li>
               <li><a><img src="images/angel list.png" alt="angel-list"/></a></li>
               <li><a><img src="images/twitter.png" alt="twitter"/></a></li>
               <li><a><img src="images/medium.png" alt="medium"/></a></li>
-            </ul>           
+            </ul>  
+          </div>         
            
     </section >
     <section class="works">
-        <div class="recent-works">
+        <!-- <div class="recent-works">
             <h2 class="recent-work-h">My Recent Works</h2>
         </div> 
-        <hr class="hr">    
+        <hr class="hr">     -->
       
     
         <div class="head-work">
-            <img class="image-container" src="images/Img Placeholder.png" alt="project-cover">
-             <h2 class="story">Multi-Post Stories</h2>
+          <div class="image-container">
+            <img src="images/Img Placeholder.png" alt="project-cover">
+          </div>
+          <div> 
+            <h2 class="story">Multi-Post Stories</h2>
              <p class="dailypost">A daily selection of privately personalized<br> reads; no accounts or sign-ups required.<br> has been the industry's standard dummy<br> text ever since the 1500s, when an<br> unknown printer took a standard dummy<br> text.</p>
             
             <ul class="techstack-container">
@@ -87,26 +93,27 @@
                 <li>html</li>
                 <li>Bootstrap</li>
                 <li>Ruby</li>                 
-                        
+                          
             </ul>                    
-           
+            <a class="project-button">See Project</a>
          </div>
-         <div class="c"> <a class="project-button">See Project</a></div>
          
-        <section class="works-section">
-        <div class="work">
+        </div>
+
+        <div class="works-section">
+          <div class="work">
             <h2>Profesional Art Printing Data</h2>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-
-             <ul class="techstack-container">
-                    <li>html</li>
-                    <li>bootstrap</li>
-                    <li>Ruby</li>
-                    
-            </ul>
-            <button class="project-button">See Project</button>     
-
+            <div >              
+              <ul class="techstack-container">
+                <li>html</li>
+                <li>bootstrap</li>
+                <li>Ruby</li>           
+              </ul>
             </div>
+            <button class="project-button">See Project</button>  
+            </div>
+
          <div class="work">
             <h2>Profesional Art Printing Data</h2>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
@@ -159,12 +166,10 @@
               <li>Javascript</li>
               <li>Css</li>
             </ul>
-
-           <button class="project-button">See Project</button></div>
-          </div>  
-    
-        </section>
-    </section>
+           <button class="project-button">See Project</button>
+          </div>
+        </div> 
+      </section>
 
     <!-- <section class="about"> -->
     <section class="about">
@@ -222,10 +227,12 @@
     </section>
     <!-- contact-form section. -->
     <section class="contact-section">
+          <form class="mainform" action="https://formspree.io/f/mvonaqyb">
             <p class="contact-head">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
             <form class="form" action="https://formspree.io/f/mvonaqyb" method="POST">
               <div>
                 <input class="form-input" type="text" name="name" placeholder="First name" maxlength="30" required>
+                <input class="form-input" type="text" name="name" placeholder="Last name" maxlength="30" required>
                 <hr>
               </div>
               <div>
@@ -235,6 +242,9 @@
                 <textarea name="mail-message" id="" cols="20" rows="5" placeholder="Enter text here" maxlength="100%" required style="border: none;"></textarea>
                 <input class="send" type="submit" value="Get in touch">
             </form>
+
+          </form>
+            
     </section>
     <footer>
         <hr>
