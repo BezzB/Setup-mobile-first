@@ -1,0 +1,328 @@
+
+.works-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  row-gap: 10px;
+  align-items: center;
+  max-width: 100%;
+  margin-left: 50%;
+  margin-top: 1%;
+}
+
+.image-container2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  align-items: center;
+  max-width: 100%;
+  margin-left: 50%;
+  height: 50%;
+}
+
+.work h2 {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 43%;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  width: 80%;
+  color: #fff;
+}
+
+.work1 h2 {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 43%;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  width: 80%;
+  color: #fff;
+}
+
+.work2 h2 {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 52%;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  width: 80%;
+  color: #fff;
+}
+
+.work3 h2 {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 43%;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  width: 80%;
+  color: #fff;
+}
+
+.work4 h2 {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 43%;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  width: 80%;
+  color: #fff;
+}
+
+.work5 h2 {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 43%;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  width: 80%;
+  color: #fff;
+}
+
+.work p {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  max-width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.work1 p {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  max-width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.work2 p {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 35px;
+  max-width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.work3 p {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  max-width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.work4 p {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  max-width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.work5 p {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  max-width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.skills-container ul {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.techstack-container {
+  padding-bottom: 0%;
+}
+
+.techstack-container ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  margin-left: 36px;
+  color: #fff;
+}
+
+.project-button {
+  background-color: #ff6b00;
+  height: 48px;
+  color: #fff;
+  align-self: left;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+  width: 92.5%;
+  border: none;
+}
+
+.project-button:hover {
+  background: rgba(0, 0, 0, 0.3);
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.work {
+  position: relative;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/Mask\ Group\ \(1\).png);
+  background-repeat: no-repeat;
+  width: 92%;
+  height: 100%;
+}
+
+.work1 {
+  position: relative;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/Mask\ Group\ \(1\).png);
+  background-repeat: no-repeat;
+  width: 92%;
+  height: 100%;
+}
+
+.work2 {
+  position: relative;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/Mask\ Group\ \(5\).png);
+  background-repeat: no-repeat;
+  width: 92%;
+  height: 100%;
+}
+
+.work3 {
+  position: relative;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/Mask\ Group\ \(3\).png);
+  background-repeat: no-repeat;
+  width: 92%;
+  height: 100%;
+}
+
+.work4 {
+  position: relative;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/Mask\ Group\ \(1\).png);
+  background-repeat: no-repeat;
+  width: 92%;
+  height: 100%;
+}
+
+.work5 {
+  position: relative;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/Mask\ Group\ \(5\).png);
+  background-repeat: no-repeat;
+  width: 92%;
+  height: 100%;
+}
+
+.work .techstack-container ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 36px;
+}
+
+.work1 .techstack-container ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 36px;
+}
+
+.work2 .techstack-container ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 36px;
+}
+
+.work3 .techstack-container ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 36px;
+}
+
+.work4 .techstack-container ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 36px;
+}
+
+.work5 .techstack-container ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 36px;
+}
+
+.work li {
+  color: #fff;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .work h2 {
+    margin-left: 10px;
+  }
+
+  .work p {
+    margin-left: 10px;
+  }
+
+  .work .techstack-container ul {
+    margin-left: 10px;
+  }
+
+  .works {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .works-section {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    align-self: center;
+    margin-left: 74px;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .works .works-section {
+    max-width: 400px;
+    align-self: center;
+  }
+}
