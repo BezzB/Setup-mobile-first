@@ -128,8 +128,6 @@ In order to run this project you need:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@bezzB]
@@ -162,8 +160,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this please comment on it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -171,8 +167,6 @@ If you like this please comment on it.
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank you my patner Mario and Abass for the help.
 
