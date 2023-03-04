@@ -40,7 +40,6 @@ nav {
   background-position: bottom right;
   padding-bottom: 10%;
   padding-top: 10%;
- 
 }
 
 .welcome {
@@ -64,7 +63,6 @@ nav {
   font-size: 18px;
   line-height: 32px;
   padding: 10px;
-  
 }
 
 .header .intro {
@@ -110,6 +108,7 @@ nav {
   line-height: 43px;
   color: #fff;
 }
+
 .head-work .techstack-container ul {
   display: flex;
   flex-direction: row;
@@ -119,6 +118,7 @@ nav {
   color: #1c1a19;
   width: 50px;
 }
+
 .work .techstack-container ul {
   display: flex;
   flex-direction: row;
@@ -132,7 +132,6 @@ nav {
   justify-content: left;
   align-items: left;
   margin-left: 5.8%;
- 
 }
 
 .recent-works h2 {
@@ -145,7 +144,6 @@ nav {
   display: flex;
   align-items: center;
   padding-bottom: 5%;
- 
 }
 
 .head-work {
@@ -200,7 +198,7 @@ nav {
   font-size: 17px;
   line-height: 24px;
   font-family: 'Inter', sans-serif;
-  width: 30.%;
+  width: 30%;
   border: none;
 }
 
@@ -499,7 +497,7 @@ footer .ending-line {
     align-items: center;
   }
 
-  
+
   .recent-works hr {
     width: 65%;
     margin-right: 5%;
@@ -521,6 +519,7 @@ footer .ending-line {
   .works .head-work .image-container {
     width: 60%;
   }
+
   /* .work .techstack-container ul {
     margin-left: 10px;
   } */
