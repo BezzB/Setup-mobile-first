@@ -97,12 +97,19 @@
 
 .icons-container {
   display: flex;
-  justify-content: space-between;
   max-width: 50%;
   flex-direction: row;
   list-style-type: none;
   column-gap: 20px;
   margin-left: 24px;
+}
+
+.click {
+  cursor: pointer;
+}
+
+.hov:hover {
+  transform: scale(1.3);
 }
 
 .recent-works {
