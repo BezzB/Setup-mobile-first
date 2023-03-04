@@ -76,7 +76,6 @@ nav .bar1,
 .icons-container > ul {
   display: flex;
   max-width: 50%;
-  margin-left: 10px;
   flex-direction: row;
   list-style-type: none;
   padding-top: 20px;
@@ -131,14 +130,12 @@ hr {
 .works .head-work {
   display: flex;
   flex-direction: column;
-  min-height: 80vh;
   margin-top: 50px;
 }
 
 .works .head-work div {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
 }
 
 .works .head-work .image-container {
@@ -276,8 +273,6 @@ hr {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/Mask\ Group1.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-size: 100%;
- 
 }
 
 .work .techstack-container ul {
@@ -310,7 +305,6 @@ hr {
   display: flex;
   flex-direction: column;
 }
-
 
 .header .welcome h1 {
   color: #ff6b00;
@@ -510,12 +504,12 @@ footer .ending-line {
     margin-top: 150px;
     font-family: "Crete Round", sans-serif;
     margin-left: 10px;
-    
   }
-.header .welcome h1{
-  max-width: 40%;
-}
-  
+
+  .header .welcome h1 {
+    max-width: 40%;
+  }
+
   .links-container {
     display: flex;
     flex-direction: row;
@@ -588,6 +582,7 @@ footer .ending-line {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-top: 10%;
   }
 
   .recent-works h2 {
@@ -625,7 +620,6 @@ footer .ending-line {
   .work {
     display: flex;
     flex-direction: column;
-    
   }
 
   .work h2 {
@@ -704,9 +698,7 @@ footer .ending-line {
 
 @media screen and (max-width: 768px) {
   .works .works-section {
-    max-width: 80%;
     align-self: center;
     margin-left: 5%;
   }
-  
 }
