@@ -223,9 +223,9 @@ hr {
 }
 
 .work .project-button {
-  background-color: #ff6b00;
+  background-color: #c35000;
   height: 48px;
-  color: #fff;
+  color: #ffffff;
   align-self: left;
   margin-top: 22px;
   padding: 12px;
@@ -238,9 +238,9 @@ hr {
 }
 
 .head-work div .project-button {
-  background-color: #ff6b00;
+  background-color: #c35000;
   height: 48px;
-  color: #fff;
+  color: #ffffff;
   align-self: flex-start;
   margin-left: 36px;
   margin-top: 10px;
@@ -317,9 +317,9 @@ hr {
 }
 
 .about button {
-  background-color: #ff6b00;
+  background-color: #c35000;
   height: 48px;
-  color: #fff;
+  color: #ffffff;
   align-self: flex-start;
   margin-left: 20px;
   margin-top: 20px;
@@ -448,7 +448,7 @@ footer hr {
   gap: 10px;
   width: 131px;
   height: 48px;
-  background-color: #ff6b00;
+  background-color: #c35000;
   margin: auto;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -456,7 +456,7 @@ footer hr {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: #ffffff;
   border: none;
 }
 
