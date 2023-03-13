@@ -334,6 +334,7 @@
     "nib": "^1.2.0",
     "node-fetch": "^2.6.9",
     "node-releases": "^2.0.10",
+    "node-sass": "^8.0.0",
     "nopt": "^5.0.0",
     "normalize-package-data": "^3.0.3",
     "normalize-path": "^3.0.0",
