@@ -866,14 +866,14 @@ footer .ending-line {
     align-self: center;
     margin-left: 5%;
   }
- 
 }
 
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
-  .menu-btn{
+
+  .menu-btn {
     visibility: hidden;
   }
 }
