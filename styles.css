@@ -367,7 +367,7 @@ hr {
 }
 
 .work .project-button {
-  background-color: #ff6b00;
+  background-color: #c35000;
   height: 48px;
   color: #fff;
   align-self: left;
@@ -382,7 +382,7 @@ hr {
 }
 
 .head-work div .project-button {
-  background-color: #ff6b00;
+  background-color: #c35000;
   height: 48px;
   color: #fff;
   align-self: flex-start;
@@ -461,7 +461,7 @@ hr {
 }
 
 .about button {
-  background-color: #ff6b00;
+  background-color: #c35000;
   height: 48px;
   color: #fff;
   align-self: flex-start;
@@ -592,7 +592,7 @@ footer hr {
   gap: 10px;
   width: 131px;
   height: 48px;
-  background-color: #ff6b00;
+  background-color: #c35000;
   margin: auto;
   font-family: 'Inter', sans-serif;
   font-style: normal;
