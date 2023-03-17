@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
  <img src="https://raw.githubusercontent.com/0xMALVEE/malvee-portfolio/main/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>M Alvee Portfolio</b></h3>
+  <h3><b>Bezalell Portfolio</b></h3>
 
 </div>
 
