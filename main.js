@@ -31,64 +31,99 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+// Works section 
+// const worksSection = document.querySelector('.works');
+// const headWork = [
+//   {
+//   id: 550,
+//   header: 'Multi-Post Stories',
+//   paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+//   imgSrc: 'assets/Img Placeholder.png',
+//   languages: ['css', 'html', 'bootstrap', 'ruby'],
+//   liveLink: 'https://github.com/MarwanDev',
+//   sourceLink: 'https://github.com/MarwanDev',
+// },
+// ];
+// const firstWork = `<div class="head-work" id="head-work">
+//   <div class="image-container">
+//     <img src="assets/Img Placeholder.png" alt="project-cover">
+//   </div>
+//   <div>
+//     <h2>${headWork.header}</h2>
+//     <p>${headWork.paragraph}</p>
+//     <div class="techstack-container">
+//       <ul>
+//         <li>${headWork.languages[0]}</li>
+//         <li>${headWork.languages[1]}</li>
+//         <li>${headWork.languages[2]}</li>
+//         <li>${headWork.languages[3]}</li>
+//       </ul>
+//     </div>
+//     <a class="project-button" id="work-button-550">See Project</a>
+//   </div>
+// </div>`;
+
+
+
 
 // popup window
 
 const myWorksSection = document.querySelector('.works-section');
 const projectList = [
+  
   {
     id: 1,
-    title: '#',
-    discription: "#",
-    imageLink: './images/Snapshoot Portfolio.jpg',
-    technologies: '',
-    liveLink: '#',
-    sourceLink: '#',
+    title: 'Profesional Art Printing Data',
+    discription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    imageLink: 'assets/Img Placeholder1.png',
+    technologies: ['html', 'nootstrap', 'Ruby'],
+    liveLink: 'https://github.com/BezzB',
+    sourceLink: 'https://github.com/BezzB',
   },
   {
     id: 2,
-    title: 'Awesome Book',
-    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageLink: './images/Snapshoot Portfolio.jpg',
-    technologies: ['Ruby', 'Bootstrap', 'Javasctipt', 'Codekit', 'GitHub', 'Codepen'],
-    liveLink: '#',
-    sourceLink: '#',
+    title: 'Profesional Art Printing Data',
+    discription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    imageLink: 'assets/Img Placeholder1.png',
+    technologies: ['html', 'nootstrap', 'Ruby'],
+    liveLink: 'https://github.com/BezzB',
+    sourceLink: 'https://github.com/BezzB',
   },
   {
     id: 3,
-    title: 'To-do List',
-    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageLink: './images/Snapshoot Portfolio.jpg',
-    technologies: ['Ruby', 'Bootstrap', 'Javasctipt', 'Codekit', 'GitHub', 'Codepen'],
-    liveLink: '#',
-    sourceLink: '#',
+    title: 'Profesional Art Printing Data',
+    discription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    imageLink: 'assets/Img Placeholder1.png',
+    technologies: ['html', 'nootstrap', 'Ruby'],
+    liveLink: 'https://github.com/BezzB',
+    sourceLink: 'https://github.com/BezzB',
   },
   {
     id: 4,
-    title: 'Clone Netflix',
-    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageLink: './images/Snapshoot Portfolio.jpg',
-    technologies: ['Ruby', 'Bootstrap', 'Javasctipt', 'Codekit', 'GitHub', 'Codepen'],
-    liveLink: '#',
-    sourceLink: '#',
+    title: 'Profesional Art Printing Data',
+    discription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    imageLink: 'assets/Img Placeholder1.png',
+    technologies: ['html', 'nootstrap', 'Ruby'],
+    liveLink: 'https://github.com/BezzB',
+    sourceLink: 'https://github.com/BezzB',
   },
   {
     id: 5,
-    title: 'Digital Clock',
-    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageLink: './images/Snapshoot Portfolio.jpg',
-    technologies: ['Ruby', 'Bootstrap', 'Javasctipt', 'Codekit', 'GitHub', 'Codepen'],
-    liveLink: '#',
-    sourceLink: '#',
+    title: 'Profesional Art Printing Data',
+    discription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    imageLink: 'assets/Img Placeholder1.png',
+    technologies: ['html', 'nootstrap', 'Ruby'],
+    liveLink: 'https://github.com/BezzB',
+    sourceLink: 'https://github.com/BezzB',
   },
   {
     id: 6,
-    title: 'Clone Spotify',
-    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageLink: './images/Snapshoot Portfolio.jpg',
-    technologies: ['Ruby', 'Bootstrap', 'Javasctipt', 'Codekit', 'GitHub', 'Codepen'],
-    liveLink: '#',
-    sourceLink: '#',
+    title: 'Profesional Art Printing Data',
+    discription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    imageLink: 'assets/Img Placeholder1.png',
+    technologies: ['html', 'nootstrap', 'Ruby'],
+    liveLink: 'https://github.com/BezzB',
+    sourceLink: 'https://github.com/BezzB',
   },
 ];
 
@@ -98,8 +133,7 @@ const htmlStructure = (id, title, technologies) => `<div class="container1">
           <ul class="list-language">
             <li class="languages">${technologies[0]}</li>
             <li class="languages">${technologies[1]}</li>
-            <li class="languages">${technologies[2]}</li>
-            <li class="languages">${technologies[3]}</li>
+            <li class="languages">${technologies[2]}</li>           
           </ul>
           <div class="container2-btn">
             <button type="button" id="project-${id}" class="see-project click">See Project</button>
