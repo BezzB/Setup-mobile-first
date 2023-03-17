@@ -1,3 +1,11 @@
+# Setup-mobile-first
+setting up the mobile first project 
+<a name="readme-top"></a>
+
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
 <a name="readme-top"></a>
 
 <!--
@@ -25,12 +33,8 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
- <img src="https://raw.githubusercontent.com/0xMALVEE/malvee-portfolio/main/logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h3><b>Bezalell Portfolio</b></h3>
+  <h3><b>setting up the mobile first project</b></h3>
 
 </div>
 
@@ -60,10 +64,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Alvee's Portfolio] <a name="about-project"></a>
+# 📖 [setting up the mobile first project ] <a name="about-project"></a>
 
+> Hello , This is a simple project shows how to create a portofolio.
 
-**[Alvee's Portfolio]** is a...
+**[setting up the mobile first project ]** is a simple buil up demo project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -71,29 +76,30 @@ After you're finished please remove all the comments and instructions!
 
 
 <details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">HTML and CSS</a></li>
-  </ul>
+  <summary>HTML</summary>
 </details>
+
+<details>
+  <summary>CSS</summary>
+</details>
+
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[clean ui]**
-- **[good design]**
-- **[good graphics]**
 
+- **[Simple Site]**
+- **[Font used]**
+-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click bellow to view the website live
 
-- [Live Demo Link](https://0xmalvee.github.io/malvee-portfolio/)
+- [Live Demo Link](https://bezzb.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,76 +110,17 @@ Click bellow to view the website live
 
 To get a local copy up and running, follow these steps.
 
+
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need: 
 
-```sh
-  npm intall -g live-server
-  live-server
-```
+## Recommendation
+1. A good Computer
+2. A good knowledge about CSS & HTML
 
-### Setup
-
-Clone this repository to your desired folder:
-
-
-commands:
-
-```sh
-  cd my-folder
-  git clone https://github.com/0xMALVEE/malvee-portfolio.git
-```
--
-
-### Install
-
-Install this project with:
-
-
-command:
-
-```sh
-  cd my-project
-  npm install
-```
-
-
-### Usage
-
-To run the project, execute the following command:
-
-
-command:
-
-```sh
-  live-server
-```
-
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+* cd Hello_Microverse
+* git clone https://github.com/BezzB/hello-world-microverse-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,17 +132,8 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/0xmalvee)
-- Twitter: [@twitterhandle](https://twitter.com/alveedev)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/0xmalvee)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/SanaTameem)
-
-👤 **Author3**
-
-- GitHub: [@githubhandle](https://github.com/ismayito)
+- GitHub: [@bezzB]
+- 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -204,9 +142,9 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[clean ui design]**
-- [ ] **[minimalistic design]**
-- [ ] **[supre easy to read]**
+- [ ] **[Flexable colors]**
+- [ ] **[Nav Bars]**
+- [ ] **[Footer]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -224,8 +162,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
+> Write a message to encourage readers to support your project
 
-If you like this project please give a star. 
+If you like this please comment on it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -233,23 +172,9 @@ If you like this project please give a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+> Give credit to everyone who inspired your codebase.
 
-
-I would like to thank all the people that contributed in this project .
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-
-
-- **[how can i run it?]**
-
-  - [local server]
-
-
+I would like to thank you my patner Mario and Abass for the help.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -257,7 +182,8 @@ I would like to thank all the people that contributed in this project .
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
