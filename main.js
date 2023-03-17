@@ -156,24 +156,31 @@ const popup = (id, title, discription, imageLink, technologies, liveLink, source
       </div>
       <div class="closeBtnContainer">
         <button class="closeBtn" id="closeBtn-${id}">&times</button>
+        <img class="desktopCloseBtn" src="./Assets/Disabled1.svg" id="deskCloseBtn-${id}"/>
       </div>
-      <h1 class="popHeading">${title}</h1>
-      <ul class="techList">
-        <li class="techItem">${technologies[0]}</li>
-        <li class="techItem">${technologies[1]}</li>
-        <li class="techItem">${technologies[2]}</li>
-      </ul>
-      <p class="popPara">${discription}</p>
-      <div class="popupBtnContainer">
-        <button class="popupBtn">
-          <a href="${liveLink}">See Live</a>
-          <img src="./Assets/see live icon.svg"/>
-        </button>
-        <button class="popupBtn">
-          <a href="${sourceLink}">See Source</a>
-          <img src="./Assets/Vector.svg"/>
-        </button>
-      </div>      
+      <div class="popDiv">
+        <div class="popDiv1">
+          <h1 class="popHeading">${title}</h1>
+          <ul class="techList">
+            <li class="techItem">${technologies[0]}</li>
+            <li class="techItem">${technologies[1]}</li>
+            <li class="techItem">${technologies[2]}</li>
+          </ul>
+        </div>
+        <div class="popDiv2">
+          <p class="popPara">${discription}</p>
+        </div>
+        <div class="popDiv3 popupBtnContainer">
+          <button class="popupBtn">
+            <a href="${liveLink}">See Live</a>
+            <img src="./Assets/see live icon.svg"/>
+          </button>
+          <button class="popupBtn">
+            <a href="${sourceLink}">See Source</a>
+            <img src="./Assets/Vector.svg"/>
+          </button>
+        </div> 
+      </div>
     </div>
   </div>`;
 
@@ -203,5 +210,13 @@ projectList.forEach((project) => {
   closeBtn.addEventListener('click', () => {
     const showpop2 = document.getElementById(`popup-${project.id}`);
     showpop2.style.display = 'none';
+  });
+});
+
+projectList.forEach((project) => {
+  const deskCloseBtn = document.getElementById(`deskCloseBtn-${project.id}`);
+  deskCloseBtn.addEventListener('click', () => {
+    const showpop3 = document.getElementById(`popup-${project.id}`);
+    showpop3.style.display = 'none';
   });
 });
