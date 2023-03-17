@@ -40,8 +40,8 @@ function toggleMenu() {
 //   paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
 //   imgSrc: 'assets/Img Placeholder.png',
 //   languages: ['css', 'html', 'bootstrap', 'ruby'],
-//   liveLink: 'https://github.com/MarwanDev',
-//   sourceLink: 'https://github.com/MarwanDev',
+//   liveLink: 'https://github.com/BezzB',
+//   sourceLink: 'https://github.com/BezzB',
 // },
 // ];
 // const firstWork = `<div class="head-work" id="head-work">
@@ -75,7 +75,7 @@ const projectList = [
     id: 1,
     title: 'Profesional Art Printing Data',
     discription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    imageLink: 'assets/Img Placeholder1.png',
+    imageLink: './Assets/Snapshoot Portfolio-mobile',
     technologies: ['html', 'nootstrap', 'Ruby'],
     liveLink: 'https://github.com/BezzB',
     sourceLink: 'https://github.com/BezzB',
@@ -149,7 +149,7 @@ projectList.forEach((project) => {
 });
 
 // Start of popup section
-const popup = (id, title, discription, imageLink, technologies, liveLink, sourceLink) => `<div class="overlay" id="popup-${id}">
+const popup = (id, title, discription, _imageLink, technologies, liveLink, sourceLink) => `<div class="overlay" id="popup-${id}">
     <div class="popupContainer">
       <div class="popupImgContainer1">
         <img class="popupImg" src="./Assets/Snapshoot Portfolio-mobile.svg"/>
