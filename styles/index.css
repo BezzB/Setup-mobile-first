@@ -812,11 +812,6 @@ section.project-popup span.close-popup:hover {
     width: 100%;
   }
 
-  section.work-section article div.sub-projects div.sub-project-container {
-    height: 100%;
-    padding: 50px 16px;
-  }
-
   section.work-section article div.first {
     border: 2px solid black;
   }
@@ -972,10 +967,6 @@ section.project-popup span.close-popup:hover {
   section.work-section article div.main-project div.main-project-details {
     padding-left: 24px;
     padding-right: 24px;
-  }
-
-  section.work-section article div.sub-projects {
-    width: 90%;
   }
 
   section.work-section article div.sub-projects div.sub-project-container {
