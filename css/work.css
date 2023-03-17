@@ -250,25 +250,34 @@ html {
   
   .work-container {
     display: grid;
-    grid-template-columns: 327px;
+    grid-template-columns: 364px;
     grid-template-rows: repeat(5, 474px);
     row-gap: 24px;
     justify-content: center;
-    padding-top: 62px;
-  }
+      }
   
   .container1 {
     border-radius: 8px;
     background: #ebf0ee;
     outline: 1px solid #d0d9d4;
+    background-image: url("../images/Mask Group1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
   }
   
   .container2 {
     border-radius: 8px;
     margin-top: 273px;
-    background: #fff;
+    background:transparent;
     padding-top: 16px;
+       
   }
+
+  .techstack-container{
+    margin-left: -15px;
+  }
+  
   
   h3,
   h4 {

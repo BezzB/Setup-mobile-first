@@ -290,7 +290,7 @@ hr {
 .work h2 {
   text-align: left;
   margin-left: 36px;
-  margin-top: 24px;
+  margin-top: 72px;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
@@ -429,10 +429,10 @@ hr {
 .work {
   position: relative;
   margin-top: 1px;
-  margin-right: 36px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/Mask\ Group1.png);
+  margin-right: 19px;
+  background-image: url("../images/Mask Group1.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 119%;
 }
 
 .work .techstack-container ul {
