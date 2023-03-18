@@ -306,7 +306,7 @@ ClosePopupBtnFirst.addEventListener('click', () => {
   PopUp.style.display = 'none';
 });
 
-// form validation
+//  Client form validation
 const EmailInput = document.getElementById('email-address');
 const Form = document.getElementById('contact-form');
 const ErrorMessage = document.getElementById('error-message');
@@ -314,7 +314,7 @@ const ErrorMessage = document.getElementById('error-message');
 Form.addEventListener('submit', (e) => {
   if (EmailInput.value !== EmailInput.value.toLowerCase()) {
     e.preventDefault();
-    ErrorMessage.textContent = 'Please make sure your email is in lower case';
+    ErrorMessage.textContent = 'Please checkout your input and ensure your email is in lower case';
   }
 });
 
