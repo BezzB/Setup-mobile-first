@@ -11,7 +11,7 @@ body {
 }
 
 .error-message {
-  color: rgb(233, 65, 65);
+  color: hsla(11,80%,45%,1);
 }
 
 a {
